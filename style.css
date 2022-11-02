@@ -63,6 +63,7 @@ img {
   text-decoration: none;
   padding: 0.5em 1em;
   margin-top: 0.2em;
+  font-family: "Oswald", sans-serif;
 }
 
 .nav__link:hover {
@@ -70,8 +71,8 @@ img {
 }
 
 .nav__link--btn {
-  background-color: var(--neu-1);
-  color: var(--pc-d);
+  background-color: var(--sc);
+  color: var(--neu-1);
   border-radius: 5rem;
 }
 
@@ -192,4 +193,140 @@ img {
   color: var(--neu-2);
   list-style-type: none;
   margin: 0.2rem 0;
+}
+
+.section--5 h1 {
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  .container {
+    padding: 0 3rem;
+  }
+  .section--nav__ham {
+    display: none;
+  }
+
+  .section--nav__logo {
+    /* border: 2px solid yellow; */
+    width: 100%;
+  }
+
+  .section--nav__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav--display {
+    margin-top: 0em;
+    padding-bottom: 0em;
+    width: 100%;
+  }
+  .nav__link {
+    margin-top: 0em;
+  }
+
+  .nav--display {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    margin-left: 1.5rem;
+  }
+  .section--2 {
+    /* padding: 10em 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 60vh; */
+  }
+
+  .section--3__content {
+    margin: 0 0.3em;
+  }
+  .section--4__row {
+    flex-direction: column;
+    width: 100%;
+  }
+  .section--4__card {
+    /* width: 95%; */
+    margin: 0 0.15em;
+  }
+
+  .section--5__part-1 {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section--2 {
+    padding: 10em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 80vh; */
+  }
+  .hero__heading {
+    font-size: 5.5rem;
+    line-height: 5.8rem;
+  }
+
+  .hero__heading--clr {
+    font-size: 5rem;
+    /* line-height: 5.8rem; */
+  }
+  .hero__content {
+    font-size: 1.4rem;
+  }
+
+  .hero__content__btn {
+    font-size: 1.6rem;
+  }
+
+  .section--3 {
+    font-size: 1.1rem;
+  }
+
+  .section--3__heading,
+  .section--4__heading {
+    font-size: 2rem;
+  }
+
+  .section--4__heading {
+    font-size: 2.25rem;
+  }
+  .section--4__content {
+    font-size: 1.2rem;
+  }
+  .section--4__row {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .section--4__cards {
+    flex-direction: column;
+    justify-content: unset;
+    margin-bottom: 1em;
+    /* width: 50%; */
+  }
+
+  .section--4__card {
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+
+  .section--footer h1 {
+    font-size: 2rem;
+  }
+
+  .section--5__heading--clr {
+    font-size: 1.2rem;
+  }
+
+  /* End */
 }
