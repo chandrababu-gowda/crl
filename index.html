@@ -12,75 +12,79 @@
 <body>
     <section class="section--1 section--nav">
         <div class="container row">
-            <div class="col"><img src="./images/logo.svg" alt="logo"></div>
-            <div class="col row">
-                <a class="col" href="#">Home</a>
-                <a class="col" href="#">About</a>
-                <a class="col" href="#">Contant</a>
-                <a class="col" href="#">Sign In</a>
-                <a class="col" href="#">Sign Up</a>
+            <div class="col row--nav">
+                <img src="./images/logo.svg" alt="logo" class="section--nav__logo">
+                <img src="./images/more (1).png" alt="hamburger" class="section--nav__ham">
+            </div>
+            <div class="col row nav--display nav__display--hide ">
+                <a class="col nav__link" href="#">Home</a>
+                <a class="col nav__link" href="#">About</a>
+                <a class="col nav__link" href="#">Contant</a>
+                <a class="col nav__link" href="#">Sign In</a>
+                <a class="col nav__link nav__link--btn" href="#">Sign Up</a>
             </div>
         </div>
     </section>
     <section class="section--2 section--hero">
         <div class="container row">
             <div class="col">
-                <h1>Responsive layouts don't have to be a struggle</h1>
+                <h1 class="hero__heading">Responsive layouts <span class="hero__heading--clr">don't have to be a
+                        struggle</span></h1>
             </div>
-            <div class="col">
+            <div class="col hero__content">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ut labore et dolore magna aliqua.</p>
-                <button>I want to learn</button>
+                <button class="hero__content__btn">I WANT TO LEARN</button>
             </div>
         </div>
     </section>
     <section class="section--3">
         <div class="container row">
-            <div class="col">
-                <h2>Mobile-first</h2>
+            <div class="col section--3__content">
+                <h2 class="section--3__heading">Mobile-first</h2>
                 <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed doeiusmod tempor incididunt utlabore et
                     dolore magna aliqua. Utenim ad minim veniam</p>
             </div>
-            <div class="col">
-                <h2>Efficient</h2>
+            <div class="col section--3__content">
+                <h2 class="section--3__heading">Efficient</h2>
                 <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed doeiusmod tempor incididunt utlabore et
                     dolore magna aliqua. Utenim ad minim veniam</p>
             </div>
-            <div class="col">
-                <h2>Done right</h2>
+            <div class="col section--3__content">
+                <h2 class="section--3__heading">Done right</h2>
                 <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed doeiusmod tempor incididunt utlabore et
                     dolore magna aliqua. Utenim ad minim veniam</p>
             </div>
         </div>
     </section>
-    <section class="section--3">
+    <section class="section--4 ">
         <div class="container row">
             <div class="col">
-                <h2>It doesn't have to be so hard</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                <h2 class="section--4__heading">It doesn't have to be so hard</h2>
+                <p class="section--4__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                     enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <img src="./images/the-image.jpg" alt="Sketch">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                <img src="./images/the-image.jpg" alt="Sketch" class="section--4__img">
+                <p class="section--4__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                     enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
-            <div class="col row">
-                <div class="col">
-                    <h2>Break it down</h2>
+            <div class="col row section--4__cards">
+                <div class="col section--4__card">
+                    <h2 class="section--4__card__heading">Break it down</h2>
                     <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed doeiusmod tempor incididunt utlabore
                         et dolore magna aliqua.</p>
                 </div>
-                <div class="col">
-                    <h2>Work your way up</h2>
+                <div class="col section--4__card">
+                    <h2 class="section--4__card__heading">Work your way up</h2>
                     <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed doeiusmod tempor incididunt utlabore
                         et dolore magna aliqua.</p>
                 </div>
-                <div class="col">
-                    <h2>Break it down</h2>
+                <div class="col section--4__card">
+                    <h2 class="section--4__card__heading">Break it down</h2>
                     <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed doeiusmod tempor incididunt utlabore
                         et dolore magna aliqua.</p>
                 </div>
@@ -88,45 +92,46 @@
             </div>
         </div>
     </section>
-    <section class="section--4 section--footer">
+    <section class="section--5 section--footer">
         <div class="container">
             <h1>just scratching the surface</h1>
             <div class="row">
                 <di class="col">
-                    <h3>About our company</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    <h3 class="section--5__heading--clr">About our company</h3>
+                    <p class="section--5__paragraph--clr">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </di>
                 <di class="col">
-                    <h3>Getting around</h3>
+                    <h3 class="section--5__heading--clr">Getting around</h3>
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
+                        <li class="section--5__paragraph--clr">Home</li>
+                        <li class="section--5__paragraph--clr">About</li>
+                        <li class="section--5__paragraph--clr">Contact</li>
                     </ul>
                 </di>
                 <di class="col">
-                    <h3>Other things</h3>
+                    <h3 class="section--5__heading--clr">Other things</h3>
                     <ul>
-                        <li>Lorem ipsum</li>
-                        <li>dolor</li>
-                        <li>sit amet</li>
-                        <li>consectetur</li>
+                        <li class="section--5__paragraph--clr">Lorem ipsum</li>
+                        <li class="section--5__paragraph--clr">dolor</li>
+                        <li class="section--5__paragraph--clr">sit amet</li>
+                        <li class="section--5__paragraph--clr">consectetur</li>
                     </ul>
                 </di>
                 <di class="col">
-                    <h3>Many more</h3>
+                    <h3 class="section--5__heading--clr">Many more</h3>
                     <ul>
-                        <li>Lorem ipsum</li>
-                        <li>dolor</li>
-                        <li>sit amet</li>
-                        <li>consectetur</li>
+                        <li class="section--5__paragraph--clr">Lorem ipsum</li>
+                        <li class="section--5__paragraph--clr">dolor</li>
+                        <li class="section--5__paragraph--clr">sit amet</li>
+                        <li class="section--5__paragraph--clr">consectetur</li>
                     </ul>
                 </di>
             </div>
         </div>
     </section>
+    <script src="index.js"></script>
 </body>
 
 </html>

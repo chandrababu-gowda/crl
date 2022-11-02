@@ -2,3 +2,194 @@
 
 /* font-family: 'Montserrat', sans-serif; */
 /* font-family: 'Oswald', sans-serif; */
+
+html {
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --pc: #3b4050;
+  --pc-d: #2e323f;
+  --sc: #a59678;
+  --neu-1: #fff;
+  --neu-2: #6f737f;
+}
+
+.container {
+  padding: 0rem 1.5rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.section--nav {
+  background-color: var(--pc-d);
+  padding: 0.8em 0;
+}
+
+.row--nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav--display {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0.7em;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.nav__display--hide {
+  display: none;
+}
+
+.nav__link {
+  color: var(--neu-1);
+  text-decoration: none;
+  padding: 0.5em 1em;
+  margin-top: 0.2em;
+}
+
+.nav__link:hover {
+  opacity: 0.7;
+}
+
+.nav__link--btn {
+  background-color: var(--neu-1);
+  color: var(--pc-d);
+  border-radius: 5rem;
+}
+
+.section--nav__ham {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.section--hero {
+  background-color: var(--pc);
+  padding: 5rem 0rem;
+}
+
+.hero__heading {
+  color: var(--neu-1);
+  font-size: 3rem;
+  line-height: 3.6rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.hero__heading--clr {
+  color: var(--sc);
+  font-size: 3rem;
+  line-height: 3.6rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.hero__content {
+  color: var(--neu-1);
+  font-size: 1.2rem;
+  margin: 2rem 0rem;
+}
+
+.hero__content__btn {
+  background-color: var(--sc);
+  font-family: "Oswald", sans-serif;
+  color: var(--neu-1);
+  /* text-transform: capitalize; */
+  font-size: 1.4rem;
+  padding: 0.4em 1.2em;
+  border-radius: 2rem;
+  border: none;
+  margin-top: 1.5rem;
+}
+
+.section--3 {
+  background-color: rgb(233, 233, 233);
+  text-align: center;
+  padding-top: 3em;
+}
+
+.section--3__content {
+  padding-bottom: 2em;
+}
+
+.section--3__heading,
+.section--4__heading {
+  color: var(--sc);
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 0.5em;
+}
+
+.section--4__heading {
+  font-size: 1.8rem;
+}
+
+.section--4 {
+  padding: 2em 0em;
+}
+
+.section--4__content {
+  font-size: 1.1rem;
+}
+
+.section--4__img {
+  margin: 1em 0;
+}
+
+.section--4__cards {
+  margin-top: 2em;
+}
+
+.section--4__card {
+  background-color: var(--pc);
+  color: var(--neu-1);
+  text-align: center;
+  padding: 1.5em 1em;
+  margin: 1em 0em;
+}
+
+.section--4__card__heading {
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 0.5em;
+}
+
+.section--footer {
+  background-color: var(--pc);
+  padding: 2rem 0;
+}
+
+.section--footer h1 {
+  font-size: 1.8rem;
+  color: var(--neu-1);
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.section--5__heading--clr {
+  font-family: "Oswald", sans-serif;
+  color: var(--sc);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.section--5__paragraph--clr {
+  color: var(--neu-2);
+  list-style-type: none;
+  margin: 0.2rem 0;
+}
